@@ -15,6 +15,16 @@ int secondLargest(int *p, int size)
             firstL=*(p+i);
         }
     }
+    if(firstL==secondL)
+    {
+        int temp=p[1];
+        for(int i=1; i<size; i++) 
+        {
+                if(p[i]>temp)
+                    temp=p[i];
+        }
+        secondL=temp;
+    }
     return secondL;
 }
 
