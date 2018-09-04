@@ -1,2 +1,2 @@
-# nptel-assgn
-NPTEL Assignments
+# lecture-assgn
+Online Lectures - Assignments
