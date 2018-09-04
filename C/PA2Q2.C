@@ -4,17 +4,28 @@
 
 int secondLargest(int *p, int size)
 {
-    int firstL=*p;
-    int secondL=*p;
+    int larg=*p;
     
     for(int i=1; i<size; i++)
     {
-        if(*(p+i)>firstL)
-        {
-            secondL=firstL;
-            firstL=*(p+i);
-        }
+        if(*(p+i)!=larg)
+            return *(p+i);
     }
+    return 0;
+}
+
+void sort(int *p,int size)
+{
+    int temp;
+    
+    for (int i = 0; i < size; ++i) 
+        for (int j = i + 1; j < size; ++j) 
+            if (*(p+i) < *(p+j)) 
+            {
+                temp = *(p+i);
+                *(p+i) = *(p+j);
+                *(p+j) = temp;
+            }
 }
 
 int main()
@@ -33,6 +44,8 @@ int main()
         scanf("%d",&num);
     }   
     
+    sort(arr,count);
+    
    	result=secondLargest(arr, count);
 
     printf("%d\n",result);
@@ -40,42 +53,39 @@ int main()
     return 0;
 }
 
-
 /*  Array */
 #include <stdio.h>
 #include <stdlib.h>
 
 int secondLargest(int p[], int size)
 {
-    long int firstL=p[0];
-    int secondL=p[0];
-    
-    for(int i=0; i<size; i++)
+    int larg=p[0];
+    for(int i=1; i<size; i++)
     {
-        if(p[i]>firstL)
-        {
-            secondL=firstL;
-            firstL=p[i];
-        }
+        if(p[i]!=larg)
+            return p[i];
     }
+    return 0;
+}
+
+void sort(int p[],int size)
+{
+    int temp;
     
-    if(firstL==secondL)
-    {
-        int temp=p[1];
-        for(int i=1; i<size; i++) 
-        {
-                if(p[i]>temp && p[i]!=firstL)
-                    temp=p[i];
-        }
-        secondL=temp;
-    }
-    return secondL;
+    for (int i = 0; i < size; ++i) 
+        for (int j = i + 1; j < size; ++j) 
+            if (p[i] < p[j]) 
+            {
+                temp = p[i];
+                p[i] = p[j];
+                p[j] = temp;
+            }
 }
 
 int main()
 {
  
-    int arr[10];
+    int arr[100];
     int num=0, count=0, result;
     
     scanf("%d",&num);
@@ -84,16 +94,13 @@ int main()
     {
         arr[count++]=num;
         scanf("%d",&num);
-    }   
+    }
     
-    /*
-    for(int i =0;i<count;i++)
-        printf("%d",arr[count]);
-    */
-    
-    result=secondLargest(arr, count);
+    sort(arr,count);
 
-    printf("\n%d\n",result);
+    result=secondLargest(arr,count);
+
+    printf("%d\n",result);
 
     return 0;
 }
