@@ -1,3 +1,32 @@
+/*  Not Using Pointer and Array */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num, count=0;
+    int firstL=-2147483648;                     //min val of 4 byte integer
+    int secondL;
+    scanf("%d",&num);
+    while(num!=-1)
+    {
+        if(num>firstL)
+        {
+            secondL=firstL;
+            firstL=num;
+        }
+        else 
+        if(num > secondL && num != firstL)
+        {
+           secondL=num;
+        }
+        scanf("%d",&num);
+    }
+    printf("%d\n",secondL);
+    return 0;
+}
+/*  First Code Ends Here    */
+
 /*  Pointer */
 #include <stdio.h>
 #include <stdlib.h>
@@ -52,6 +81,7 @@ int main()
 
     return 0;
 }
+/*  Code Ends Here for Pinter   */
 
 /*  Array */
 #include <stdio.h>
@@ -104,5 +134,5 @@ int main()
 
     return 0;
 }
-
+/*  Code Ends here for Array    */
 
