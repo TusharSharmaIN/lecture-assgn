@@ -21,7 +21,7 @@ public:
     
     void getFlowerName(Rose& r) { cout << r.color << endl; }
     
-    void getFlowerName() { cout << name << " " << "is" << " "; }    // Allow call to  getFlowerName() method in the base class
+    using Flower::getFlowerName;   // Allow call to  getFlowerName() method in the base class
 };
 
 int main() {
