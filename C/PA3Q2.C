@@ -12,15 +12,13 @@ int main()
         
         fact = fact * count;
         
-        if(fact>num)
-            break;
-        
         if(fact<=num)
-            printf("%d ", fact);
+            printf("%d ", fact);  
+        else
+          	break;
         
         count++;
     }
     
     return 0;
 }
-
