@@ -1,3 +1,17 @@
+/*   
+ *	Problem Statement
+ *
+ *	Find the number of distinct numbers in a given sequence. The sequence need not be sorted.
+ *	
+ *	Input
+ *	The input consists of two lines.
+ *	The first line consists of a positive number N. N is at most 1000.
+ *	The second line consists of N numbers separated by spaces.
+ *	
+ *	Output
+ *	The output should be the number of distinct elements in the sequence.
+ */
+
 #include <stdio.h>
 #define N 1000
 
