@@ -8,10 +8,12 @@
  *	You have to output 0 if M is not a multiple of N.
  *	You have to output M/N if M is a multiple of N.
  *
- *	Input-----
+ *	Input
+ *  -------
  *	Two integers, say M and N.
  *
- *	Output------
+ *	Output
+ *  ------
  *	You have to output 0 if M is not a multiple of N.
  *	You have to output M/N if M is a multiple of N.
  */
