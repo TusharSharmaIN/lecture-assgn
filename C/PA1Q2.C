@@ -1,7 +1,7 @@
 /*	
- *  Problem Satement
- *  
- *  You are given two integers, say M and N.
+ *	Problem Statement
+ *	
+ *	You are given two integers, say M and N.
  *
  *	You must check whether M is an exact multiple of N, without using
  *	loops.
