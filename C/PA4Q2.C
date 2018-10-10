@@ -12,6 +12,7 @@
  *	The output should be the number of distinct elements in the sequence.
  */
 
+
 #include <stdio.h>
 #define N 1000
 
