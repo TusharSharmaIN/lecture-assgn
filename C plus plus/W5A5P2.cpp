@@ -1,3 +1,10 @@
+/*
+ *	Problem Statement
+ *	
+ *	Fill in the missing codes as per the given instructions in the program
+ *
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;
