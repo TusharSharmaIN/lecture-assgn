@@ -1,7 +1,7 @@
 /*
  *	Problem Statement
  *	
- *	Complete the Macro definition to get the desired output according to the test cases.
+ *	Complete the Macro definition.
  *
  */
 
