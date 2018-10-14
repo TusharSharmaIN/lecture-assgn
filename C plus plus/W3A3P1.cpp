@@ -1,7 +1,7 @@
 /*
  *	Problem Statement
  *	
- *	Fill the blank with the proper constructor and copy constructor to get the output as per the test cases.
+ *	Fill the blank with the proper constructor and copy constructor to get the output.
  *
  */
 
