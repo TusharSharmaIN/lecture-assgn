@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Fill in the blanks. Use new & delete to allocate and free the memory for the integer array a of size 3. 
+ *	Check the given test cases.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 void IO_Array(int *);
