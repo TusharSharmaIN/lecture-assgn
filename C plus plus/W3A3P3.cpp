@@ -1,3 +1,14 @@
+/*
+ *	Problem Statement
+ *	
+ *	Fill in the blanks with proper code snippets to complete the class Queue.
+ *	You need to match the output as per the test cases.
+ *
+ *	Hint: Queue is a data structure which follows First In First Out (FIFO) principle. 
+ *	Elements in a queue are added from its rear end and deleted from its front
+ *
+ */
+
 #include <iostream>
 #include <vector>
 #include <string.h>
