@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Fill in the blanks below to complete the program. 
+ *	Here we are trying to overload the O/P stream operator
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
