@@ -1,3 +1,10 @@
+/*
+ *	Problem Statement
+ *	
+ *	Fill in the blanks in the following code with appropriate cast operators.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
