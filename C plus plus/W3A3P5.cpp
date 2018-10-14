@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	The program uses the concept of mutability. 
+ *	Fill the blanks with appropriate keywords.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
