@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Consider the following code. 
+ *	Fill the blank with appropriate class header of template type.
+ *
+ */
+
 #include<iostream>
 
 using namespace std;
