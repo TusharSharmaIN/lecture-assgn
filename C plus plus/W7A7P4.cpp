@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Consider the following program. 
+ *	Write proper constructor or conversion operators as per the requirement in the editable section.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 	
