@@ -1,3 +1,10 @@
+/*
+ *	Problem Statement
+ *	
+ *	Fill in the formal parameters in the swap() header to get the desired output according to the test cases.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 int swap(int &y , int &z) {		//complete formal arguements
