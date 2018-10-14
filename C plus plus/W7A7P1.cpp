@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Consider the following code snippet. Fill the BLANKS.
+ *	It is based on the virtuality and inheritance concept
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
