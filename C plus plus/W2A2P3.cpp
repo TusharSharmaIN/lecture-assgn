@@ -1,7 +1,7 @@
 /*
  *	Problem Statement
  *	
- *	Fill in the formal parameters in the swap() header to get the desired output according to the test cases.
+ *	Fill in the formal parameters in the swap() header.
  *
  */
 
