@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Following program is an example of private inheritance. 
+ *	Fill the blanks accordingly after considering the instruction mentioned as a comment statements before the blanks.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
