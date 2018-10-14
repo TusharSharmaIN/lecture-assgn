@@ -1,8 +1,7 @@
 /*
  *	Problem Statement
  *	
- *	Overload  Area() to calculate the area of a rectangle whose sides are either  of int type or of double type.
- *	Your overload should match the output.
+ *	Overload  Area() to calculate the area of a rectangle whose sides are either of int type or of double type.
  *
  */
 
