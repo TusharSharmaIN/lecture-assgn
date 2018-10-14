@@ -1,3 +1,10 @@
+/*
+ *	Problem Statement
+ *	
+ *	Consider the following program. Write the required code in the editable section.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
