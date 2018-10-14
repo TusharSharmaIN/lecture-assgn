@@ -1,9 +1,15 @@
-#include <iostream>
+/*
+ *	Problem Statement
+ *	
+ *	Consider the following code. 
+ *	Define the correct exception method in the editable section.
+ *
+ */
 
+#include <iostream>
 #include <exception>
 
 using namespace std;
-
 
 class myexception : public exception {
 // Define the Proper function which will return a string "DivideByZero"
