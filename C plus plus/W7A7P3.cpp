@@ -1,3 +1,10 @@
+/*
+ *	Problem Statement
+ *	
+ *	Consider the following code snippet and fill in the blank with appropriate casting.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
