@@ -1,3 +1,10 @@
+/*
+ *	Problem Statement
+ *	
+ *	Fill the blank in the following program so that the macro func and function func can be distinguished without any ambiguity. 
+ *
+ */
+
 #include <stdio.h>
 int func(int x, int y);
 
