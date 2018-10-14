@@ -2,7 +2,6 @@
  *	Problem Statement
  *	
  *	In the following code fill up the default values in the constructor and  the object definition before main(). 
- *	The output must match the test cases.
  *
  */
 
