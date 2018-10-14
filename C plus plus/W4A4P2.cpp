@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	The following program is about static data members. 
+ *	Fill in the blanks as per the given instruction.
+ *
+ */
+
 #include<iostream>
 using namespace std;
 
