@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Here S and R represent two geometric classes, Square and Rectangle respectively. 
+ *	Our objective is to convert / interpret the Square object as Rectangle and calculate the area of the Rectangle.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
