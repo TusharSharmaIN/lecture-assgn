@@ -1,3 +1,10 @@
+/*
+ *	Problem Statement
+ *	
+ *	Consider the code given below. Fill up the blank by following the instructions associated with each blank and complete the code.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
