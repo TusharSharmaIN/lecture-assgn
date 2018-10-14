@@ -1,7 +1,7 @@
 /*
  *	Problem Statement
  *	
- *	Fill in the blanks below to complete the program to match the outputs of the test cases. 
+ *	Fill in the blanks below to complete the program. 
  *	Here we are trying to create a new box which dimension (length, breadth & height) is the sum of the dimensions of two boxes. 
  *	In the O/P we should get the addition result of the length, breadth & height of the new box.
  *
