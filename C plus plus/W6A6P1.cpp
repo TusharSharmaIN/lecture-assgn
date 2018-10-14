@@ -1,3 +1,11 @@
+/*
+ *	Problem Statement
+ *	
+ *	Consider the following program. 
+ *	Write the correct code in the editable section following the given instruction, so that print() can print the value of A::n.
+ *
+ */
+
 #include <iostream>
 using namespace std;
 
