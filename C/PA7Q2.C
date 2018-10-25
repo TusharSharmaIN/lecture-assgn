@@ -8,7 +8,7 @@
  *	You have to create a linked list with the input sequence of integers as entries. 
  *	You can use the following structure.
  *	
- *  struct node{
+ *  	struct node{
  *		int data;
  *		struct node *next;
  *	};
@@ -29,7 +29,8 @@
  *	-------------
  *	6
  */
- #include <stdio.h>
+
+#include <stdio.h>
 #include <stdlib.h>
 
 typedef struct node
